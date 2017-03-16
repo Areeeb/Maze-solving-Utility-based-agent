@@ -1,0 +1,30 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package cs401.k142113.a1p2;
+
+import java.io.IOException;
+
+/**
+ *
+ * @author Areeb
+ */
+public class CS401K142113A1P2 {
+
+    /**
+     * @param args the command line arguments
+     * @throws java.io.IOException
+     */
+    public static void main(String[] args) throws IOException {
+        // TODO code application logic here
+        read obj = new read();
+        obj.fileOpen();
+        obj.fileOpenToWrite();
+        obj.fileRead();
+        obj.bfs();
+        obj.fileClose();
+    }
+    
+}
